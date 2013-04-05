@@ -22,5 +22,5 @@
     <project path="kernel/huawei/honor" name="ivan19871002/android_kernel_huawei_honor" revision="cm-10.1" />
 
     <!-- HuaWei Vendor -->
-    <project path="vendor/huawei" name="ivan19871002/proprietary_vendor_huawei" revision="cm-10.1" />
+    <project path="vendor/huawei" name="ivan19871002/android_vendor_huawei" revision="cm-10.1" />
 </manifest>
