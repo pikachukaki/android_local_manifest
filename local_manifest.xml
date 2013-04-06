@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- CM replacements -->
-    <remove-project name="CyanogenMod/hardware/qcom/display" />
+  
+  <remote name="gh"
+          fetch="git://github.com/" />
+           
+  <!-- CM replacements -->
+  <remove-project name="CyanogenMod/hardware/qcom/display" />
     
-    <!-- Local projects -->
-    <project path="hardware/atheros/wifi/libs" name="ivan19871002/android_hardware_atheros_wifi_libs" revision="cm-10.1" />
-    <project path="hardware/qcom/display-legacy" name="ivan19871002/android_hardware_qcom_display" revision="cm-10.1-new" />
+  <!-- Local projects -->
+  <project path="hardware/atheros/wifi/libs" name="ivan19871002/android_hardware_atheros_wifi_libs" revision="cm-10.1" />
+  <project path="hardware/qcom/display-legacy" name="ivan19871002/android_hardware_qcom_display" revision="cm-10.1-new" />
 
-    <!-- HuaWei C8813 -->
-    <project path="device/huawei/c8813" name="ivan19871002/android_device_huawei_c8813" revision="cm-10.1" />
+  <!-- HuaWei C8813 -->
+  <project path="device/huawei/c8813" name="ivan19871002/android_device_huawei_c8813" revision="cm-10.1" />
 
-    <!-- HuaWei C8812 -->
-    <project path="device/huawei/c8812" name="ivan19871002/android_device_huawei_c8812" revision="cm-10.1" />
-    <project path="device/huawei/msm7x27a-common" name="ivan19871002/android_device_huawei_msm7x27a-common" revision="cm-10.1" />
-    <project path="kernel/huawei/msm7x27a" name="ivan19871002/android_kernel_huawei_msm7x27a" revision="cm-10.1" />
+  <!-- HuaWei C8812 -->
+  <project path="device/huawei/c8812" name="ivan19871002/android_device_huawei_c8812" revision="cm-10.1" />
+  <project path="device/huawei/msm7x27a-common" name="ivan19871002/android_device_huawei_msm7x27a-common" revision="cm-10.1" />
+  <project path="kernel/huawei/msm7x27a" name="ivan19871002/android_kernel_huawei_msm7x27a" revision="cm-10.1" />
 
-    <!-- HuaWei Msm7x30 -->
-    <project path="device/huawei/u8860" name="ivan19871002/android_device_huawei_u8860" revision="cm-10.1" />
-    <project path="device/huawei/u8800pro" name="ivan19871002/android_device_huawei_u8800pro" revision="cm-10.1" />
-    <project path="device/huawei/msm7x30-common" name="ivan19871002/android_device_huawei_msm7x30-common" revision="cm-10.1" />
-    <project path="kernel/huawei/honor" name="ivan19871002/android_kernel_huawei_honor" revision="cm-10.1" />
+  <!-- HuaWei Msm7x30 -->
+  <project path="device/huawei/u8860" name="ivan19871002/android_device_huawei_u8860" revision="cm-10.1" />
+  <project path="device/huawei/u8800pro" name="ivan19871002/android_device_huawei_u8800pro" revision="cm-10.1" />
+  <project path="device/huawei/msm7x30-common" name="ivan19871002/android_device_huawei_msm7x30-common" revision="cm-10.1" />
+  <project path="kernel/huawei/honor" name="ivan19871002/android_kernel_huawei_honor" revision="cm-10.1" />
 
-    <!-- HuaWei Vendor -->
-    <project path="vendor/huawei" name="ivan19871002/android_vendor_huawei" revision="cm-10.1" />
+  <!-- HuaWei Vendor -->
+  <project path="vendor/huawei" name="ivan19871002/android_vendor_huawei" revision="cm-10.1" />
+  
 </manifest>
