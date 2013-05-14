@@ -5,7 +5,7 @@
           fetch="git://github.com/" />
            
   <!-- CM replacements -->
-  <remove-project name="CyanogenMod/hardware/qcom/display" />
+  <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
     
   <!-- Local projects -->
   <project path="hardware/atheros/wifi/libs" name="ivan19871002/android_hardware_atheros_wifi_libs" remote="gh" revision="cm-10.1" />
